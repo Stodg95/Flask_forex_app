@@ -1,0 +1,16 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exchange Rate</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <h1>Exchange Rate</h1>
+    <p>The amount after exchange is: {{ result }}</p>
+    {% if time %} 
+    <h4>** Last Update on {{time}} **</h4> 
+    {% endif %} 
+    <button><a href="/">Home</a></button>
+  </body>
+</html>
